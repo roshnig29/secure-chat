@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Chat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+    <script src = "/static/js/script.js"></script>
+</head>
+    
+<body>
+    <h1>Socket Encrypted chat</h1>
+    <div class="messages">
+        <!--Sent messages will appear here-->
+    </div>
+    <div class = "input">
+        <input type="text" id="username" placeholder="Username" class="textbox" required />
+        <input type="text" id="message" placeholder="Message" class="textbox"  required />
+        <button id="send">Send</button>
+    </div>
+</body>
+
+</html>

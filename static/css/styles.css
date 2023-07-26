@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  color: rgb(42, 165, 144);
+}
+body {
+  background-color: rgb(189, 226, 207);
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  padding: 5px;
+  margin: 2px;
+}
+.textbox {
+  background-color: beige;
+  font-size: 14pt;
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+}
+.messages {
+  text-align: center;
+  border: 10px solid rgb(42, 165, 144);
+  border-radius: 5px;
+  background-color: rgb(133, 211, 174);
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 5px;
+  display: block;
+}
+#send {
+  background-color: rgb(115, 211, 163);
+  font-size: 14pt;
+  padding: 5px;
+  margin: 2px;
+}
+.input{
+  justify-content: center;
+  display: flex;
+}
